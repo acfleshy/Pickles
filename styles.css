@@ -18,53 +18,53 @@ body {
 /* common nav styles */
 .navigation_wrapper {
     height: 190px;
-    background-color:black;
-    color:lightseagreen;
+    background-color: black;
+    color: lightseagreen;
     display: flex;
     justify-content: space-between;
-    align-content:space-between;
+    align-content: space-between;
     padding: 60px 100px;
 }
 
 .contact_info_wrapper {
-    color:cyan;
-    background-color:black
+    color: lightskyblue;
+    background-color: black
 }
 
 .center-column {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 }
 
 .icon {
     margin-right: 5px;
     background-color: black;
-    color: cyan;
+    color: lightskyblue;
 }
 
 .icon2 {
-    margin-right: 5px;
+    margin-right: 15px;
+    margin-left: 10px;
     background-color: black;
-    color: cyan;
+    color: lightskyblue;
 }
 
 .address_wrapper {
-    color:rgb(147, 131, 234);
-    background-color:black
+    color: rgb(147, 131, 234);
+    background-color: black
 }
 
 .nav_link {
-    color:aquamarine;
-    background-color:black
+    color: aquamarine;
+    background-color: black
 }
 
-.banner_image {
-    
+.navigation_wrapper > .links_wrapper > .banner_image img {
     width: 100px;
     height: 50px;
-    background-color:black;
-    display:flex;
-    justify-content:center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
