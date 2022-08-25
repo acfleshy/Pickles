@@ -1,0 +1,70 @@
+h1 {
+    font-family:'Cookie', sans-serif; 
+    background-color:black;
+    font-size: 80px;
+    margin: 0px;
+    color:lightseagreen;
+    display: flex;
+    justify-content:center;
+}
+
+/* common styles */
+body {
+    margin: 0px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* common nav styles */
+.navigation_wrapper {
+    height: 190px;
+    background-color:black;
+    color:lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-content:space-between;
+    padding: 60px 100px;
+}
+
+.contact_info_wrapper {
+    color:cyan;
+    background-color:black
+}
+
+.center-column {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: black;
+}
+
+.icon {
+    margin-right: 5px;
+    background-color: black;
+    color: cyan;
+}
+
+.icon2 {
+    margin-right: 5px;
+    background-color: black;
+    color: cyan;
+}
+
+.address_wrapper {
+    color:rgb(147, 131, 234);
+    background-color:black
+}
+
+.nav_link {
+    color:aquamarine;
+    background-color:black
+}
+
+.banner_image {
+    
+    width: 100px;
+    height: 50px;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+}
