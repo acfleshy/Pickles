@@ -17,13 +17,13 @@ body {
 
 /* common nav styles */
 .navigation_wrapper {
-    height: 190px;
+    height: 90px;
     background-color: black;
     color: lightseagreen;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 60px 100px;
+    padding: 10px 50px;
 }
 
 /* .navigation_wrapper > .left_column {
@@ -73,7 +73,7 @@ body {
     color: rgb(147, 131, 234);
 }
 
-navigation_wrapper > .right_column > .address_wrapper {
+.navigation_wrapper > .right_column > .address_wrapper {
     color: rgb(147, 131, 234);
     background-color: black;
     display: flex;
@@ -90,5 +90,22 @@ navigation_wrapper > .right_column > .address_wrapper {
     color: aquamarine;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.links_wrapper > .nav_link {
+    width: 70px;
+    text-align: center;
+}
+
+.links_wrapper > .nav_link a {
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links_wrapper > .nav_link a:hover {
+    color: cornflowerblue;
+    letter-spacing: 2px;
 }
