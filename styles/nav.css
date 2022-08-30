@@ -1,0 +1,114 @@
+/* common nav styles */
+.navigation_wrapper {
+    height: 90px;
+    background-color: black;
+    color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 50px;
+}
+
+/* left column styles */
+.navigation_wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation_wrapper > .left-column > .contact_info_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    color: lightskyblue;
+    background-color: black;
+}
+
+.left_column {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.icon {
+    margin-right: 5px;
+    margin-left: 15px;
+    background-color: black;
+    color: lightskyblue;
+}
+
+.icon2 {
+    margin-right: 15px;
+    margin-left: 10px;
+    background-color: black;
+    color: lightskyblue;
+}
+
+/* right column styles */
+.right_column {
+    text-align: right;
+    display: flex;
+}
+
+.navigation_wrapper > .right_column > .address_wrapper {
+    color: rgb(147, 131, 234);
+    background-color: black;
+    display: flex;
+    text-align: right;
+}
+
+.navigation_wrapper > .right_column > .address_wrapper a {
+    color: rgb(147, 131, 234);
+    background-color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation_wrapper > .right_column > .address_wrapper a:hover {
+    color:darkslateblue;
+}
+
+.navigation_wrapper > .right_column > .contact_icon {
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: rgb(147, 131, 234);
+}
+
+.navigation_wrapper > .right_column > .contact_icon a {
+    color:rgb(161, 150, 227)
+    transition: 0.5s;
+}
+
+.navigation_wrapper > .right_column > .contact_icon a:hover {
+    color:darkslateblue;
+}
+
+/* links wrapper bar styles */
+.nav_link {
+    color: aquamarine;
+    background-color: black;
+}
+
+.links_wrapper {
+    width: 100%;
+    color: aquamarine;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links_wrapper > .nav_link {
+    width: 70px;
+    text-align: center;
+}
+
+.links_wrapper > .nav_link a {
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links_wrapper > .nav_link a:hover {
+    color: rgb(44, 172, 130);
+    letter-spacing: 2px;
+}
