@@ -1,0 +1,20 @@
+/* desert_section styles */
+.desert_section {
+    background-image: url(../images/IMG_1848.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desert_section > .top_heading {
+    height: 
+    width: 290px;
+    border-radius: 2px;
+}
+
+.desert_section > .bottom_heading {
+    text-align: left;
+}
