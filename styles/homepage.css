@@ -1,6 +1,6 @@
 /* desert_section styles */
 .desert_section {
-    background-image: url(../images/IMG_1848.jpg);
+    background-image: url(../images/indiancreek.jpg);
     padding: 100px;
     height: 300px;
     background-attachment: fixed;
@@ -10,11 +10,54 @@
 }
 
 .desert_section > .top_heading {
-    height: 
-    width: 290px;
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    height: 40px;
     border-radius: 2px;
 }
 
 .desert_section > .bottom_heading {
+    background-color: rgba(211, 211, 211, 0.487);
     text-align: left;
+    padding: 1px 5px 1px 10px;
+    width: 540px;
+    height: 130px;
+    margin-top: 10px;
+    border-radius: 2px;
 }
+
+/* Features section styles */
+.features_section {
+    height: 450px;
+    background-image: url(../images/endoftheworldpups.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 20px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-family: 'Cookie', sans-serif;
+    font-size: 40px;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features_section > .columns_wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features_section > .columns_wrapper > .column {
+    padding: 10px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features_section > .columns_wrapper > .column:hover {
+    

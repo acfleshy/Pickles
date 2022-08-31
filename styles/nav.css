@@ -90,7 +90,7 @@
 
 .links_wrapper {
     width: 100%;
-    color: aquamarine;
+    color:darkseagreen;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -102,8 +102,9 @@
 }
 
 .links_wrapper > .nav_link a {
-    font-family: 'Montserrat', sans-serif;
-    color: aquamarine;
+    font-family: 'Cookie', sans-serif;
+    font-size: 35px;
+    color: rgb(143, 221, 195);
     text-decoration: none;
     transition: 0.5s;
 }
