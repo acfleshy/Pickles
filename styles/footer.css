@@ -1,0 +1,17 @@
+span {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: lightskyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_links_wrapper {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: darkseagreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
