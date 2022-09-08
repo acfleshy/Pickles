@@ -24,3 +24,48 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
 }
+
+/* Skewed header */
+.skewed_header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.skewed_header > .header_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: absolute;
+    background-position: center;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(85%);
+}
+.skewed_header > .skewed_header_wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed_header > .skewed_header_wrapper > .skewed_header_content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed_header > .skewed_header_wrapper > .skewed_header_content > .heading_wrapper {
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    font-family: 'Cookie', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}

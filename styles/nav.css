@@ -42,6 +42,17 @@
     color: lightskyblue;
 }
 
+.icon2 a {
+    color: lightskyblue;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.icon2 a:hover {
+    color: darkslateblue;
+    transition: 0.5s;
+}
+
 /* right column styles */
 .right_column {
     text-align: right;
@@ -97,7 +108,6 @@
 }
 
 .links_wrapper > .nav_link {
-    width: 70px;
     text-align: center;
 }
 
