@@ -28,8 +28,9 @@ h4 {
 /* Skewed header */
 .skewed_header {
     position: relative;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
+    background-color: black;
 }
 
 .skewed_header > .header_bg {
@@ -42,7 +43,7 @@ h4 {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: absolute;
+    background-attachment:fixed;
     background-position: center;
     transform: skewY(-6deg);
     transform-origin: top left;
@@ -52,7 +53,8 @@ h4 {
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 1300px;
+    height: 100px;
 }
 
 .skewed_header > .skewed_header_wrapper > .skewed_header_content {
@@ -60,12 +62,55 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Cookie', sans-serif;
+    font-size: 30px;
+}
+
+.about_links_wrapper {
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about_links_wrapper a {
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.about_link a {
+    background-color: transparent;
+    color: whitesmoke;
 }
 
 .skewed_header > .skewed_header_wrapper > .skewed_header_content > .heading_wrapper {
     background-color: rgba(211, 211, 211, 0.487);
     color: whitesmoke;
     font-family: 'Cookie', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+}
+
+/* About me page styles */
+.about_me_page_container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.about_me_content {
+    width: 1000px;
+    color: darkseagreen;
+    font-size: 16px;
+}
+
+.about_me_content #me {
+    width: 350px;
+    margin: 23px 23px 20px 0px;
+    float: left;
+
 }
