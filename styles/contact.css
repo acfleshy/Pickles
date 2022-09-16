@@ -1,0 +1,81 @@
+/* Skewed header */
+.skewed_header {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.skewed_header > .header_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    filter: brightness(85%);
+}
+.skewed_header > .skewed_header_wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.skewed_header > .skewed_header_wrapper > .skewed_header_content {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cookie', sans-serif;
+    font-size: 30px;
+}
+
+.about_links_wrapper {
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.about_links_wrapper a {
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.about_link a {
+    background-color: transparent;
+    color: whitesmoke;
+    transform: 0.5s;
+}
+
+.about_link a:hover {
+    color:lightskyblue;
+    letter-spacing: 2px;
+}
+
+.skewed_header > .skewed_header_wrapper > .skewed_header_content > .heading_wrapper {
+    background-color: rgba(211, 211, 211, 0.487);
+    color: whitesmoke;
+    font-family: 'Cookie', sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 250px;
+}
